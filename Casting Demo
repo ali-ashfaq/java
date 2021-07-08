@@ -1,17 +1,11 @@
 package hit.day5;
 public class CastingDemo {
 	public static void main(String[] args) {
-		//number,floats,character,boolean
-		
-		//numbers
-		//lower stored in higher...compatible types...
-		byte b=10;//8 bit
-		short s=b;//16 bit
-		int i=s;//32 bit
-		long l=i;//64 bit
-		
-		
-		long ll=257;//64 bit
+		byte b=10;
+		short s=b;
+		int i=s;
+		long l=i;
+		long ll=222;//64 bit
 		System.out.println("long value..:"+ll);
 		int ii=(int)ll;//32 bit
 		System.out.println("int value...:"+ii);
@@ -20,15 +14,13 @@ public class CastingDemo {
 		byte bb=(byte)ss;//8 bit
 		System.out.println("byte value....:"+bb);
 		
-		
-		
-		double d=23.45;//64 bit
+		double d=235.45;
 		System.out.println("double value..:"+d);
 		float f=(float)d;
 		System.out.println("float value..:"+f);
 		
 		int myint=(int)f;
-		System.out.println(myint);//decimals are lossed
+		System.out.println(myint);
 		
 		int myascii=169;
 		char mychar=(char)myascii;
