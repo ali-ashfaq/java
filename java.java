@@ -1,8 +1,4 @@
 package test;
-//int--All Numbers 
-//char-Alphabets
-//float-decimal
-
 public class Alma {
 
 	public static void main(String[] args) {
